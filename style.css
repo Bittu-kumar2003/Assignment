@@ -1,0 +1,28 @@
+body{
+  background-color: #AAE3E2
+}
+p:hover{
+  background-color:#E4C988;
+}
+
+#navbar-toggle-cbox{
+			display:none;
+		}
+    	#navbar-toggle-cbox ~ #navbar {
+			display:none !important;
+		}
+		#navbar-toggle-cbox:checked ~ .collapse {
+		    display: block !important;
+		}
+		#navbar-toggle-cbox:checked ~ #navbar {
+		    display: block !important;
+		}
+		#container {
+			margin-top: 65px;
+		}
+		.navbar{
+			background-color: #e1e3e8;
+		}
+		.navbar-brand {
+			font-size: 25px;
+		}
